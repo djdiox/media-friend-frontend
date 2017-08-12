@@ -1,0 +1,27 @@
+{
+    "name": "media-friend-frontend",
+    "version": "1.0.0",
+    "description": "This Repository is the frontend of a webapp that let you organize your media, create playlist, connect to spotify, share it with friends and everything like that :)",
+    "main": "index.js",
+    "dependencies": {
+        "mithril": "^1.1.3",
+        "webpack": "^3.5.4"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "webpack src/index.js bin/app.js --watch",
+        "build": "webpack -p",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/djdiox/media-friend-frontend.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/djdiox/media-friend-frontend/issues"
+    },
+    "homepage": "https://github.com/djdiox/media-friend-frontend#readme"
+}
